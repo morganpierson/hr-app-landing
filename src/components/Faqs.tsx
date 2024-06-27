@@ -8,7 +8,7 @@ const faqs = [
     {
       question: 'How does automatic performance tracking work?',
       answer:
-        'We use AI to track your employees’ performance and contributions over the course of their employment. It’s like having a digital manager.',
+        'We use AI to track your employees performance and contributions over the course of their employment. It’s like having a digital manager.',
     },
     {
       question: 'How does your solution help companies attract top talent?',
@@ -30,7 +30,7 @@ const faqs = [
     {
       question: 'How does incentivized employee acquisition work?',
       answer:
-        'Companies take part of their employee severance package, and apply that to an acquisition offer. For example, a company that would otherwise pay 3 months severance can use part of money to pay you to try out their employee. It’s a win-win.',
+        'Companies take part of their employee severance package, and apply that to an acquisition offer. For example, a company that would otherwise pay 3 months severance can use part of money to pay you to try out their employee. It is a win-win.',
     },
     {
       question:
