@@ -11,31 +11,35 @@ import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import marketplaceList from '@/images/screenshots/Marketplace_List.png'
+import negotiationMessage from '@/images/screenshots/negotiation_message.png'
+import employeeProfile from '@/images/screenshots/employee_profile.png'
+import offerPage from '@/images/screenshots/offer_page.png'
 
 const features = [
   {
     title: 'Exclusive Access to Top Talent',
     description:
       "Gain access to top talent before they hit the other job boards. We're the first to know.",
-    image: screenshotExpenses,
+    image: marketplaceList,
   },
   {
     title: 'Try Out Talent Risk Free',
     description:
       'Reduce your risk and increase your chances of finding the right fit. Companies pay you to acquire their furloughed employees (yes, really).',
-    image: screenshotVatReturns,
+    image: offerPage,
   },
   {
     title: 'Employee Performance Tracking',
     description:
       'Pull requests. Closed deals. Successful marketing campaigns. Track employee performance automatically.',
-    image: screenshotPayroll,
+    image: employeeProfile,
   },
   {
     title: 'Negotiate trades and acquisitions on your terms',
     description:
       'Like a major-league sports team. Set trade & acquisition terms that work for you.',
-    image: screenshotReporting,
+    image: negotiationMessage,
   },
 ]
 
