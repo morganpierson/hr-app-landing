@@ -6,11 +6,11 @@ import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - NinetoFive',
-    default: 'NinetoFive - Talent management for the modern business',
+    template: '%s - Talented',
+    default: 'Talented - Talent management for the modern business',
   },
   description:
-    'NinetoFive is a talent management platform that helps you invest in your team today while keeping an eye on the future.',
+    'Talented is a talent management platform that helps you invest in your team today while keeping an eye on the future.',
 }
 
 const inter = Inter({
