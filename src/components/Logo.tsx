@@ -30,7 +30,7 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
     // </svg>
     <link
       rel="icon"
-      href="../images/logos/Frame 1.svg"
+      href="../images/logos/frame13.svg"
       type="image/<generated>"
       sizes="<generated>"
     />

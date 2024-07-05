@@ -135,7 +135,7 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Starter"
-            price="$5 per user/month"
+            price="$2 per user/month"
             description="For early-stage startups and SMBs."
             href="/register"
             features={[
@@ -149,7 +149,7 @@ export function Pricing() {
           <Plan
             featured
             name="Scale"
-            price="$9 per user/month"
+            price="$4 per user/month"
             description="For scaling businesses and growing teams."
             href="/register"
             features={[
@@ -164,7 +164,7 @@ export function Pricing() {
           />
           <Plan
             name="Enterprise"
-            price="$20 per user/month"
+            price="$7 per user/month"
             description="For even the biggest enterprise companies."
             href="/register"
             features={[
