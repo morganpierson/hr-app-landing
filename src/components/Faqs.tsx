@@ -53,7 +53,7 @@ const faqs = [
     {
       question: 'Do you offer a free trial?',
       answer:
-        "We offer a 60-day money-back guarantee. If you're not satisfied with our service, we'll refund your purchase, no questions asked.",
+        "We offer you unlimited access to the Talented platform until you make your first acquisition offer. We're confident you'll love it.",
     },
   ],
 ]

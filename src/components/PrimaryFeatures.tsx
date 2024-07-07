@@ -29,12 +29,7 @@ const features = [
       'Reduce your risk and increase your chances of finding the right fit. Companies pay you to acquire their furloughed employees (yes, really).',
     image: offerPage,
   },
-  {
-    title: 'Employee Performance Tracking',
-    description:
-      'Pull requests. Closed deals. Successful marketing campaigns. Track employee performance automatically.',
-    image: employeeProfile,
-  },
+
   {
     title: 'Negotiate trades and acquisitions on your terms',
     description:

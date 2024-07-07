@@ -125,11 +125,10 @@ export function Pricing() {
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
               <span className="relative">Simple pricing,</span>
             </span>{' '}
-            for everyone.
+            for every size of business.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, get access to the
-            Talented network today.
+            You pay nothing until your first outreach message
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
@@ -141,9 +140,6 @@ export function Pricing() {
             features={[
               'Invite up to 100 team members',
               'Receive 3 free promoted employee listings',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
             ]}
           />
           <Plan
@@ -155,11 +151,7 @@ export function Pricing() {
             features={[
               'Invite up to 800 employees',
               '$500 towards employee listing offerings',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              '7 free promoted employee listings',
             ]}
           />
           <Plan
@@ -169,10 +161,8 @@ export function Pricing() {
             href="/register"
             features={[
               'Unlimited employee invites (200 minimum)',
-              '$5000 toward employee listing offerings',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              '$1200 toward employee listing offerings',
+              '15 free promoted employee listings',
             ]}
           />
         </div>

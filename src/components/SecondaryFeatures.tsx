@@ -6,9 +6,9 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import internalJobMatch from '@/images/screenshots/internal_job_match.png'
+import employeeProfile from '@/images/screenshots/employee_profile.png'
+import employeeProfileAgency from '@/images/screenshots/employee_profile_agency.png'
 
 interface Feature {
   name: React.ReactNode
@@ -25,7 +25,7 @@ const features: Array<Feature> = [
       "Looking for a solution to match your talent to the right project? We've got you covered.",
     description:
       'Built for dev agencies, our agency mode lets you manage your talent and projects in one place. It’s like a digital Rolodex, but with a lot more features.',
-    image: screenshotProfitLoss,
+    image: employeeProfileAgency,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -60,7 +60,7 @@ const features: Array<Feature> = [
       'Find the right fit for your existing talent within your organization. No more guessing.',
     description:
       'Our internal job matching feature utilizes AI to match the skillsets of your current employees to the needs of your company today.',
-    image: screenshotContacts,
+    image: internalJobMatch,
     icon: function ContactsIcon() {
       return (
         <>
@@ -78,12 +78,12 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Automatic Resume Creation',
+    name: 'Automated Employee Performance Tracking',
     summary:
-      'ATS-optimized resumes are created automatically for each of your employees.',
+      'AI-powered performance tracking. No more manual reviews or guesswork.',
     description:
-      "When it's time to say goodbye, your employees will have a resume that's ready to go. It's like a parting gift, but more practical.",
-    image: screenshotInventory,
+      'Pull requests. Closed deals. Successful marketing campaigns. Track employee performance automatically.',
+    image: employeeProfile,
     icon: function InventoryIcon() {
       return (
         <>
